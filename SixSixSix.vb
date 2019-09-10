@@ -39,7 +39,8 @@
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
         number = 0
         TextBox1.Text = CStr(number)
-        firstNumber = secondNumber = 0
+        firstNumber = 0
+        secondNumber = 0
         which = 1
     End Sub
 
